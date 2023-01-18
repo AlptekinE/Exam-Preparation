@@ -1,7 +1,7 @@
 from utils import database
 
 
-USER_CHOICE = """
+CHOICE = """
 
 Selections:
 
@@ -16,7 +16,7 @@ Type 'q' to quit
 
 def menu():
     database.create_topics_table()
-    user_input = input(USER_CHOICE)
+    user_input = input(CHOICE)
     while user_input != 'q':
         if user_input == 'a':
             prompt_add_topic()
