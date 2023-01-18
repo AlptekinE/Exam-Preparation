@@ -3,15 +3,15 @@ from utils import database
 
 USER_CHOICE = """
 
-Enter:
+Selections:
 
-'a' to add a new topic
-'l' to list all topics
-'c' to rate the level of confidence in the topic
-'d' to delete a topic
-'q' to quit
+Type 'a' to add a new topic
+Type 'l' to list all topics
+Type 'c' to rate your confidence level in the topic
+Type 'd' to delete a topic
+Type 'q' to quit
 
-Your choice: """
+"""
 
 
 def menu():
